@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/karen-calisaya/DH-Heroes/issues"
   },
-  "homepage": "https://github.com/karen-calisaya/DH-Heroes#readme"
+  "homepage": "https://github.com/karen-calisaya/DH-Heroes#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }

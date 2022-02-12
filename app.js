@@ -1,11 +1,13 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const PORT = 3030;
 
 app.use(express.static('DH-Heroes/public/img'));
 
-app.listen(3030, () => {
-    console.log('Servidor levantado');
+app.listen(PORT, () => {
+    console.log(`Servidor levantado en el puerto ${PORT}
+    http://localhost:${PORT}/home`);
 });
 
 app.get('/home', (req, res) => {
